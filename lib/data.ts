@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import cryptoCrowdImg from "@/public/cryptocrowd2.png";
-//import ozdevsImg from "@/public/ozdevs-two.png";
+import ozdevsImg from "@/public/ozdevs-two.png";
 import assetTradingImg from "@/public/asset-trading.jpg";
 import euphorusImg from "@/public/euphorus-two.png";
 import euphorusBackendImg from "@/public/euphorus-backend.png";
@@ -131,7 +131,7 @@ export const projectsData = [
       "logos:transformers",
       "logos:google-colaboratory",
     ],
-    //imageUrl: ozdevsImg,
+    imageUrl: ozdevsImg,
     urlLink: "",
     githubLink: "https://github.com/ks3669/LMM-malware-detection",
   },
