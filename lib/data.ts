@@ -264,7 +264,7 @@ export const skillsData = [
   },
   {
     name: "Powershell",
-    icon: "logos:powershell",
+    icon: "fa-brands fa-windows",
   },
   {
     name: "ExpressJS",
