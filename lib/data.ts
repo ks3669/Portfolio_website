@@ -40,64 +40,56 @@ export const links = [
 export const experiencesData = [
   {
     title: "System Admin - SW Technology Level 3",
-    location: "Humanforce",
+    location: "Northern Arizona University",
     description:`
-• Deployed licensed and unlicensed applications across 1500+ devices using SCCM and Jamf, including student laptops and lab computers.
-• Developed scripts in PowerShell, Python, and Selenium to automate application installations, silent installation, and fetch the latest versions from the internet.
-• Automated repetitive tasks and server monitoring using Bash and Python scripts, improving efficiency and reducing manual workload by setting up CRON jobs to send alert emails.
-• Created multiple GUIs to assist the ITS Desktop Support team, making their tasks easier. In the process, gained experience with PyGui, Tkinter, and Pandas libraries in Python.
-• While predefining applications with required prerequisites, gained knowledge of configuration files, DLL files, and ISS files, which are crucial for application execution.
-`,
+                • Deployed licensed and unlicensed applications across 1500+ devices using SCCM and Jamf, including student laptops and lab computers.
+                • Developed scripts in PowerShell, Python, and Selenium to automate application installations, silent installation, and fetch the latest versions from the internet.
+                • Automated repetitive tasks and server monitoring using Bash and Python scripts, improving efficiency and reducing manual workload by setting up CRON jobs to send alert emails.
+                • Created multiple GUIs to assist the ITS Desktop Support team, making their tasks easier. In the process, gained experience with PyGui, Tkinter, and Pandas libraries in Python.
+                • While predefining applications with required prerequisites, gained knowledge of configuration files, DLL files, and ISS files, which are crucial for application execution.`,
     icon: React.createElement(CgWorkAlt),
     date: "February 2024 - Present",
   },
   {
     title: "Research Assitant",
     location: "Northern Arizona University",
-    description:
-    ' • Developed an uncertainty-aware response filtering system using PyTorch and Bayesian Neural Networks, enabling the LLM to recognize low-confidence responses and prevent hallucinated outputs.' +
-    ' • Implemented an embedding similarity check with FAISS and cosine similarity in Python, comparing user queries against the knowledge base to detect out-of-distribution (OOD) inputs.' +
-    ' • Designed a confidence-scoring mechanism by analyzing attention weights and probability distributions in the LLMs decoder, ensuring responses align with predefined Native American health datasets.' +
-    ' • Integrated threshold-based rejection logic by leveraging softmax probability entropy and log-likelihood scoring, allowing the model to decline answers for unknown queries while guiding users to reliable sources.',
+    description:`
+                • Developed an uncertainty-aware response filtering system using PyTorch and Bayesian Neural Networks, enabling the LLM to recognize low-confidence responses and prevent hallucinated outputs.
+                • Implemented an embedding similarity check with FAISS and cosine similarity in Python, comparing user queries against the knowledge base to detect out-of-distribution (OOD) inputs.
+                • Designed a confidence-scoring mechanism by analyzing attention weights and probability distributions in the LLMs decoder, ensuring responses align with predefined Native American health datasets.
+                • Integrated threshold-based rejection logic by leveraging softmax probability entropy and log-likelihood scoring, allowing the model to decline answers for unknown queries while guiding users to reliable sources.`,
     icon: React.createElement(CgWorkAlt),
     date: "December 2024 - January 2025",
   },
   {
     title: "Graduate Teaching Assistant",
     location: "Northern Arizona University",
-    description:
-      " • Teaching Assistant for CS249 - Data Structures course where I conducted office hours to assist students in understanding data structures and algorithms concepts, providing one-on-one and group support to clarify challenging topics. " +
-
- " • Discovered and addressed gaps in personal knowledge while teaching, leading to a deeper understanding and refinement of expertise in data structures and algorithms." +
-
-" • Proposed and developed a prototype for detecting plagiarism by modeling students as nodes and their average similarity scores as weighted edges in a directed graph, using Python for visualization.",
+    description:`
+                • Teaching Assistant for CS249 - Data Structures course where I conducted office hours to assist students in understanding data structures and algorithms concepts, providing one-on-one and group support to clarify challenging topics.
+                • Discovered and addressed gaps in personal knowledge while teaching, leading to a deeper understanding and refinement of expertise in data structures and algorithms.
+                • Proposed and developed a prototype for detecting plagiarism by modeling students as nodes and their average similarity scores as weighted edges in a directed graph, using Python for visualization.`,
     icon: React.createElement(CgWorkAlt),
     date: "August 2024 - December 2024",
   },
   {
     title: "DevOps engineer & API developer",
     location: "TATA Consultancy Services",
-    description:
-      " • Microservices Deployment and Monitoring: My team and I deployed insurance-focused microservices on AWS ECS, utilizing CI/CD pipelines with Jenkins, Terraform, and AWS CodePipeline. We also implemented observability using AWS CloudWatch and Prometheus to monitor service performance and ensure reliability across environments." +
-    " • API Development: I designed and tested RESTful APIs using AWS API Gateway, Lambda, and DynamoDB, implementing secure access with IAM roles and Cognito, optimizing insurance data workflows for scalability and performance." + 
-
-  " • Data Resiliency and Backup: Leveraged Amazon RDS with multi-AZ deployments for relational data and DynamoDB for NoSQL storage, ensuring scalability and fault tolerance. Automated backup and snapshot policies were implemented to meet disaster recovery and compliance requirements." + 
-
-  " • Key Learnings: I gained expertise in designing scalable, cloud-native solutions tailored for the insurance domain, focusing on automation, resilience, and secure data management while bridging traditional workflows with modern AWS services.",
+    description: `
+                • Microservices Deployment and Monitoring: My team and I deployed insurance-focused microservices on AWS ECS, utilizing CI/CD pipelines with Jenkins, Terraform, and AWS CodePipeline. We also implemented observability using AWS CloudWatch and Prometheus to monitor service performance and ensure reliability across environments.
+                • API Development: I designed and tested RESTful APIs using AWS API Gateway, Lambda, and DynamoDB, implementing secure access with IAM roles and Cognito, optimizing insurance data workflows for scalability and performance.
+                • Data Resiliency and Backup: Leveraged Amazon RDS with multi-AZ deployments for relational data and DynamoDB for NoSQL storage, ensuring scalability and fault tolerance. Automated backup and snapshot policies were implemented to meet disaster recovery and compliance requirements.
+                • Key Learnings: I gained expertise in designing scalable, cloud-native solutions tailored for the insurance domain, focusing on automation, resilience, and secure data management while bridging traditional workflows with modern AWS services.`,
     icon: React.createElement(CgWorkAlt),
     date: "April 2022 - April 2023",
   },
   {
     title: "System Administrator",
     location: "TATA Consultancy Services",
-    description:
-      " • Backup Infrastructure Development: My team and I were responsible for creating a robust backup infrastructure for the client. We actively participated in customer calls to understand their requirements, which helped us design a comprehensive backup lifetime plan tailored for each category of data. Leveraging Veritas NetBackup software, we successfully set up the infrastructure to meet their needs." + 
-
-" • Automation for Backup Admins: We developed scripts to automate repetitive tasks typically handled by a Backup Administrator, such as creating backup policies and monitoring the backup infrastructure. This not only streamlined operations but also significantly improved efficiency." +
-
-" • Server Migration and Management: Following the backup project, I joined the server team to work on migration projects. We supported them by creating and managing golden images, monitoring server loads, and performing stress testing to ensure system reliability and readiness." +
-
-" • Learning and Insights Gained: This experience taught me the value of customer interaction—how to process information from meetings and break it down into actionable tasks. Additionally, I gained in-depth knowledge of traditional infrastructure setups, which later gave me a unique perspective when transitioning to cloud services, as I could connect traditional methods to modern cloud-based solutions effectively.",
+    description:`
+                • Backup Infrastructure Development: My team and I were responsible for creating a robust backup infrastructure for the client. We actively participated in customer calls to understand their requirements, which helped us design a comprehensive backup lifetime plan tailored for each category of data. Leveraging Veritas NetBackup software, we successfully set up the infrastructure to meet their needs.
+                • Automation for Backup Admins: We developed scripts to automate repetitive tasks typically handled by a Backup Administrator, such as creating backup policies and monitoring the backup infrastructure. This not only streamlined operations but also significantly improved efficiency.
+                • Server Migration and Management: Following the backup project, I joined the server team to work on migration projects. We supported them by creating and managing golden images, monitoring server loads, and performing stress testing to ensure system reliability and readiness.
+                • Learning and Insights Gained: This experience taught me the value of customer interaction—how to process information from meetings and break it down into actionable tasks. Additionally, I gained in-depth knowledge of traditional infrastructure setups, which later gave me a unique perspective when transitioning to cloud services, as I could connect traditional methods to modern cloud-based solutions effectively.`,
     icon: React.createElement(CgWorkAlt),
     date: "November 2020 - March 2022",
   },
@@ -261,6 +253,10 @@ export const skillsData = [
   {
     name: "Tailwind CSS",
     icon: "devicon:tailwindcss",
+  },
+  {
+    name: "Powershell",
+    icon: "logos:powershell",
   },
   {
     name: "ExpressJS",
