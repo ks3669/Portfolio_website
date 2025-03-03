@@ -35,8 +35,8 @@ export default function Intro() {
             <Image
               src={githubdp}
               alt="Karthik portrait"
-              width="192"
-              height="192"
+              width="220"
+              height="220"
               quality="95"
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
