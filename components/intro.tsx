@@ -65,8 +65,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Karthik Srivathsan Sekar.</span> I'm a{" "}
-        <span className="font-bold">Master's Student, Research Assitant and System Admin</span> at{" "}
-        <span className="font-bold">NAU</span> in Flagstaff, Arizona.
+        <span className="font-bold">Master's Student, Research Assistant and Student System Admin</span> at{" "}
+        <span className="font-bold">NAU</span>, Flagstaff, Arizona.
       </motion.h1>
 
       <motion.div
