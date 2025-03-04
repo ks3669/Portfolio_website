@@ -110,7 +110,7 @@ export const projectsData = [
     ],
     imageUrl: cryptoCrowdImg,
     githubLink: "https://github.com/ks3669/portfolio-v2",
-    demoLink: "",
+    demoLink: "https://www.karthiksekar.fyi/",
   },
   {
     title: "LMM malware detection",
@@ -165,7 +165,7 @@ export const projectsData = [
     urlLink: "",
   },
   {
-    title: "Scipt to cleanup unused files in JAMF",
+    title: "Scipts I wrote to automate stuff and reduce my colleague's manual work.",
     description:
       "This section hosts the bunch of scripts that I wrote for apple and windows devices using Bash, Python, PyGUI to automate some of the manual processes in my workplace and personal to save a bit of time for folks and myself",
     tags: ["C#"],
