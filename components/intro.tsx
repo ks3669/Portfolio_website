@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import { BsLinkedin } from "react-icons/bs";
+import { BsCloudDownload } from "react-icons/bs";
 import { FaMediumM } from "react-icons/fa"; // Or use FaMedium if you want the filled version
 import { FaGithub } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
@@ -78,7 +79,7 @@ export default function Intro() {
         }}
       >
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
+          className="group bg-white px-3 py-3 w-25 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
           href="https://github.com/ks3669"
           target="_blank"
         >
@@ -86,7 +87,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
+          className="group bg-white px-3 py-3 w-25  flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
           href="https://www.linkedin.com/in/karthik-srivathsan-89a731181/"
           target="_blank"
         >
@@ -95,12 +96,20 @@ export default function Intro() {
         </a>
 
         <a
-          className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
-          href="https://medium.com/@karthiksri2023"
+          className="group bg-white px-3 py-3 w-25 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"          href="https://medium.com/@karthiksri2023"
           target="_blank"
         >
           <span className="opacity-70">Medium</span>
           <FaMediumM className="opacity-70" />
+        </a>
+
+        <a
+              className="group bg-white px-3 py-3 w-25 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
+              href="/Karthik_Sekar_Resume.pdf"
+              download="Karthik_Sekar_Resume.pdf"
+            >
+              <span className="opacity-70">Resume</span>
+              <BsCloudDownload className="opacity-70" /> 
         </a>
 
       </motion.div>
