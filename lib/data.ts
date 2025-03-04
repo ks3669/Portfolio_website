@@ -7,7 +7,7 @@ import euphorusImg from "@/public/euphorus-two.png";
 import euphorusBackendImg from "@/public/euphorus-backend.png";
 import techprowlImg from "@/public/techprowl-two.png";
 import taskManagerImg from "@/public/task-manager.png";
-import familyTreeImg from "@/public/bfsproject.jpg";
+//import familyTreeImg from "@/public/bfsproject.jpg";
 import binaryGameImg from "@/public//binary-game.png";
 
 export const links = [
@@ -167,22 +167,22 @@ export const projectsData = [
   {
     title: "Scipt to cleanup unused files in JAMF",
     description:
-      "This Script is written with Python and PyGUI. This script will fetch all the packages that are currently used by the JAMF policies and then it will scan for the packages that are unused within JAMF pacakges and in a network share and then displat out all the unused packages in the GUI - enabling the user to delete the pacakage by using API calls internally.",
+      "This section hosts the bunch of scripts that I wrote for apple and windows devices using Bash, Python, PyGUI to automate some of the manual processes in my workplace and personal to save a bit of time for folks and myself",
     tags: ["C#"],
     icons: ["fa-solid:terminal", "logos:apple", "logos:python" ],
     imageUrl: taskManagerImg,
-    githubLink: "https://github.com/ks3669/Cleanup-Script",
+    githubLink: "https://github.com/ks3669/Scripts",
   },
-  {
-    title: "Bash scipt to remove a User's admin access",
-    description:
-      "Python program that implements a breadth-first search algorithm to generate a minimal spanning tree. Problem was to calculate a shortest path from a starting vertex in a graph to each other vertex. The vertices represent people and each person is related to every other person through parent-child relationships. A person can see how they are related to each other person in the tree",
-    tags: ["Python"],
-    icons: ["logos:apple", "fa-solid:terminal"],
-    imageUrl: familyTreeImg,
-    githubLink: "https://github.com/ks3669/User-s-Admin-Access-Removal-Script",
-    demoLink: "",
-  },
+//  {
+//    title: "Bash scipt to remove a User's admin access",
+//    description:
+//      "Python program that implements a breadth-first search algorithm to generate a minimal spanning tree. Problem was to calculate a shortest path from a starting vertex in a graph to each other vertex. The vertices represent people and each person is related to every other person through parent-child relationships. A person can see how they are related to each other person in the tree",
+//    tags: ["Python"],
+//    icons: ["logos:apple", "fa-solid:terminal"],
+//    imageUrl: familyTreeImg,
+//    githubLink: "https://github.com/ks3669/User-s-Admin-Access-Removal-Script",
+//    demoLink: "",
+//  },
 ] as const;
 
 export const skillsData = [
