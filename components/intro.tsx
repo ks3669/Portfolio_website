@@ -36,8 +36,8 @@ export default function Intro() {
             <Image
               src={githubdp}
               alt="Karthik portrait"
-              width="320"
-              height="320"
+              width="192"
+              height="192"
               quality="95"
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
@@ -66,8 +66,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Karthik Srivathsan Sekar.</span> I'm a{" "}
-        <span className="font-bold">Master's Student, Research Assistant and Student System Admin</span> at{" "}
-        <span className="font-bold">NAU</span>, Flagstaff, Arizona.
+        <span className="font-bold">Master's Student, Student System Admin, Research Assitant and Graduate Teaching Assistant at </span> at{" "}
+        <span className="font-bold">NAU</span> in Flagstaff, Arizona.
       </motion.h1>
 
       <motion.div
@@ -79,34 +79,40 @@ export default function Intro() {
         }}
       >
         <a
-          className="group bg-white px-3 py-3 w-25 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
-          href="https://github.com/ks3669"
-          target="_blank"
-        >
-          GitHub <FaGithub className="opacity-70" />
-        </a>
+  className="group bg-white p-3 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack flex items-center justify-center"
+  href="https://github.com/ks3669"
+  target="_blank"
+  rel="noopener noreferrer"
+  title="GitHub"
+>
+  <FaGithub className="opacity-70 h-6 w-6" />
+</a>
 
-        <a
-          className="group bg-white px-3 py-3 w-25  flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
-          href="https://www.linkedin.com/in/karthik-srivathsan-89a731181/"
-          target="_blank"
-        >
-          <span className="opacity-70">LinkedIn</span>
-          <BsLinkedin className="opacity-70" />
-        </a>
+<a
+  className="group bg-white p-3 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack flex items-center justify-center"
+  href="https://www.linkedin.com/in/karthik-srivathsan-89a731181/"
+  target="_blank"
+  rel="noopener noreferrer"
+  title="LinkedIn"
+>
+  <BsLinkedin className="opacity-70 h-6 w-6" />
+</a>
 
-        <a
-          className="group bg-white px-3 py-3 w-25 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"          href="https://medium.com/@karthiksri2023"
-          target="_blank"
-        >
-          <span className="opacity-70">Medium</span>
-          <FaMediumM className="opacity-70" />
-        </a>
+<a
+  className="group bg-white p-3 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack flex items-center justify-center"
+  href="https://medium.com/@karthiksri2023"
+  target="_blank"
+  rel="noopener noreferrer"
+  title="Medium"
+>
+  <FaMediumM className="opacity-70 h-6 w-6" />
+</a>
 
         <a
               className="group bg-white px-3 py-3 w-25 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
               href="/Karthik_Sekar_Resume.pdf"
               download="Karthik_Sekar_Resume.pdf"
+              title="Download My Resume!"
             >
               <span className="opacity-70">Resume</span>
               <BsCloudDownload className="opacity-70" /> 
