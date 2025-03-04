@@ -255,10 +255,6 @@ export const skillsData = [
     icon: "devicon:tailwindcss",
   },
   {
-    name: "Powershell",
-    icon: "logos:powershell",
-  },
-  {
     name: "ExpressJS",
     icon: "logos:express",
   },
