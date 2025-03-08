@@ -78,45 +78,50 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
-        <a
-  className="group bg-white p-3 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack flex items-center justify-center"
+<a
+  className="group bg-white dark:bg-gray-700 p-3 rounded-full outline-none focus:scale-110 hover:scale-105 
+             active:scale-105 transition cursor-pointer borderBlack flex items-center justify-center"
   href="https://github.com/ks3669"
   target="_blank"
   rel="noopener noreferrer"
   title="GitHub"
 >
-  <FaGithub className="opacity-70 h-6 w-6" />
+  <FaGithub className="opacity-70 dark:text-white h-6 w-6" />
 </a>
 
 <a
-  className="group bg-white p-3 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack flex items-center justify-center"
+  className="group bg-white dark:bg-gray-700 p-3 rounded-full outline-none focus:scale-110 hover:scale-105 
+             active:scale-105 transition cursor-pointer borderBlack flex items-center justify-center"
   href="https://www.linkedin.com/in/karthik-srivathsan-89a731181/"
   target="_blank"
   rel="noopener noreferrer"
   title="LinkedIn"
 >
-  <BsLinkedin className="opacity-70 h-6 w-6" />
+  <BsLinkedin className="opacity-70 dark:text-white h-6 w-6" />
 </a>
 
 <a
-  className="group bg-white p-3 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack flex items-center justify-center"
+  className="group bg-white dark:bg-gray-700 p-3 rounded-full outline-none focus:scale-110 hover:scale-105 
+             active:scale-105 transition cursor-pointer borderBlack flex items-center justify-center"
   href="https://medium.com/@karthiksri2023"
   target="_blank"
   rel="noopener noreferrer"
   title="Medium"
 >
-  <FaMediumM className="opacity-70 h-6 w-6" />
+  <FaMediumM className="opacity-70 dark:text-white h-6 w-6" />
 </a>
 
-        <a
-              className="group bg-white px-3 py-3 w-25 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
-              href="/Karthik_Sekar_Resume.pdf"
-              download="Karthik_Sekar_Resume.pdf"
-              title="Download My Resume!"
-            >
-              <span className="opacity-70">Resume</span>
-              <BsCloudDownload className="opacity-70" /> 
-        </a>
+<a
+  className="group bg-white dark:bg-gray-700 px-3 py-3 w-25 flex items-center gap-2 rounded-full outline-none 
+             focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
+  href="/Karthik_Sekar_Resume.pdf"
+  download="Karthik_Sekar_Resume.pdf"
+  title="Download My Resume!"
+>
+  <span className="opacity-70 dark:text-white">Resume</span>
+  <BsCloudDownload className="opacity-70 dark:text-white" /> 
+</a>
+
 
       </motion.div>
     </section>
