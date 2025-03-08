@@ -28,21 +28,22 @@ export default function Header() {
               initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
             >
-              <Link
-                className={clsx(
-                  "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-300 dark:hover:text-gray-300",
-                  {
-                    "text-gray-950 dark:text-black":
-                      activeSection === link.name,
-                  }
-                )}
-                href={link.hash}
-                onClick={() => {
-                  setActiveSection(link.name);
-                  setTimeOfLastClick(Date.now());
-                }}
-              >
-                {link.name}
+            <Link
+              className={clsx(
+                "flex w-full items-center justify-center px-3 py-3 transition",
+                "hover:text-gray-950 dark:hover:text-gray-300", // Adjust hover color
+                {
+                  "text-gray-950 dark:text-white": activeSection === link.name, // White text in dark mode
+                  "dark:bg-gray-700 dark:px-4 dark:py-2 dark:rounded-md": activeSection === link.name, // Gray button background in dark mode
+                }
+              )}
+              href={link.hash}
+              onClick={() => {
+                setActiveSection(link.name);
+                setTimeOfLastClick(Date.now());
+              }}
+            >
+              {link.name}
 
                 {link.name === activeSection && (
                   <motion.span
