@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import cryptoCrowdImg from "@/public/cryptocrowd2.png";
 import ozdevsImg from "@/public/ozdevs-two.png";
+import leetfinder from "@/public/leetfinder.png";
 import assetTradingImg from "@/public/asset-trading.jpg";
 import euphorusImg from "@/public/euphorus-two.png";
 import euphorusBackendImg from "@/public/euphorus-backend.png";
@@ -113,6 +114,21 @@ export const projectsData = [
     demoLink: "https://www.karthiksekar.fyi/",
   },
   {
+    title: "Leetfinder - A website to find similar Leetcode problems",
+    description:
+      "I made this website to help myself while searching for leetcode problems related to a topic. I also did this project to flex my data structure skills and ML skills. Click to view more technical details about the project",
+    tags: ["JavaScript", "HTML", "CSS", "Data Structures"],
+    icons: [
+      "logos:javascript",
+      "logos:tailwindcss-icon",
+      "akar-icons:network",
+      "logos:html-5",
+    ],
+    imageUrl: leetfinder,
+    githubLink: "https://github.com/ks3669/karthik_leetfinder",
+    demoLink: "https://karthik-leetfinder.vercel.app/",
+  },
+  {
     title: "LMM malware detection",
     description:
       "A LLM model which uses LSTM to do Hybrid Malware Analysis. So basically we train the model with behaviours of a Malware app and the model will decide if the malware is benign or Malicious",
@@ -201,6 +217,10 @@ export const skillsData = [
   {
     name: "React",
     icon: "logos:react",
+  },
+  {
+    name: "HTML",
+    icon: "logos:html-5"
   },
   {
     name: "GraphQL",
