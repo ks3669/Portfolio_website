@@ -231,10 +231,6 @@ export const skillsData = [
     icon: "logos:nodejs-icon",
   },
   {
-    name: "HTML",
-    icon: "vscode-icons:file-type-html",
-  },
-  {
     name: "CSS",
     icon: "vscode-icons:file-type-css",
   },
