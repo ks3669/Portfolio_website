@@ -150,7 +150,7 @@ export const projectsData = [
     tags: ["Java", "MariaDB", "Swing"],
     icons: ["logos:c-plusplus", "ph:tree-structure-light","akar-icons:network"],
     imageUrl: assetTradingImg,
-    urlLink: "https://dna-sequence-fuzzymatching.vercel.app/",
+    demoLink: "https://dna-sequence-fuzzymatching.vercel.app/",
     githubLink: "https://github.com/ks3669/DNA-sequence-fuzzymatching",
   },
   // {
