@@ -110,7 +110,7 @@ export const projectsData = [
       "logos:nodejs-icon",
     ],
     imageUrl: cryptoCrowdImg,
-    githubLink: "https://github.com/ks3669/portfolio-v2",
+    githubLink: "https://github.com/ks3669/Portfolio_website",
     demoLink: "https://www.karthiksekar.fyi/",
   },
   {
@@ -128,7 +128,27 @@ export const projectsData = [
     githubLink: "https://github.com/ks3669/karthik_leetfinder",
     demoLink: "https://karthik-leetfinder.vercel.app/",
   },
+    {
+    title: "LLM response Filtering",
+    description:
+      "This Project will stop the model from halucinating for low confident responses by analysing the confidence level of the model for each response and then it will give out a response notifying the user that it does not know much about the query ",
+    tags: ["Python", "Flask", "Bootstrap", "SQLite"],
+    icons: ["logos:python", "logos:pytorch", "akar-icons:network"],
+    imageUrl: techprowlImg,
+    githubLink: "https://github.com/ks3669/LLM-response-Filtering",
+    demoLink: "https://colab.research.google.com/drive/1MzUo7ok3tHfaTVAteudU1GfbkyNPG22a?usp=sharing",
+  },
   {
+    title: "DNA sequence fuzzymatching",
+    description:
+      "This code is used to perform sorting, searching and fuzzymatching in a 2billion long DNA sequence. Written using C++",
+    tags: ["Java", "MariaDB", "Swing"],
+    icons: ["logos:c-plusplus", "ph:tree-structure-light","akar-icons:network"],
+    imageUrl: assetTradingImg,
+    demoLink: "https://dna-sequence-fuzzymatching.vercel.app/",
+    githubLink: "https://github.com/ks3669/DNA-sequence-fuzzymatching",
+  },
+    {
     title: "LMM malware detection",
     description:
       "A LLM model which uses LSTM to do Hybrid Malware Analysis. So basically we train the model with behaviours of a Malware app and the model will decide if the malware is benign or Malicious",
@@ -140,18 +160,8 @@ export const projectsData = [
       "logos:google-colaboratory",
     ],
     imageUrl: ozdevsImg,
-    urlLink: "",
+    demoLink: "https://colab.research.google.com/drive/1OG_QDBW23Y6hawOIiAyjidvHuE-tuU4P?usp=sharing",
     githubLink: "https://github.com/ks3669/LMM-malware-detection",
-  },
-  {
-    title: "DNA sequence fuzzymatching",
-    description:
-      "This code is used to perform sorting, searching and fuzzymatching in a 2billion long DNA sequence. Written using C++",
-    tags: ["Java", "MariaDB", "Swing"],
-    icons: ["logos:c-plusplus", "ph:tree-structure-light","akar-icons:network"],
-    imageUrl: assetTradingImg,
-    demoLink: "https://dna-sequence-fuzzymatching.vercel.app/",
-    githubLink: "https://github.com/ks3669/DNA-sequence-fuzzymatching",
   },
   // {
   //   title: "Euphorus",
@@ -171,16 +181,6 @@ export const projectsData = [
   //   imageUrl: euphorusBackendImg,
   //   githubLink: "https://github.com/ben04rogers/cab230assignment2",
   // },
-  {
-    title: "LLM response Filtering",
-    description:
-      "This Project will stop the model from halucinating for low confident responses by analysing the confidence level of the model for each response and then it will give out a response notifying the user that it does not know much about the query ",
-    tags: ["Python", "Flask", "Bootstrap", "SQLite"],
-    icons: ["logos:python", "logos:pytorch", "akar-icons:network"],
-    imageUrl: techprowlImg,
-    githubLink: "https://github.com/ks3669/LLM-response-Filtering",
-    urlLink: "",
-  },
   {
     title: "Scipts I wrote to automate stuff and reduce my colleague's manual work.",
     description:
