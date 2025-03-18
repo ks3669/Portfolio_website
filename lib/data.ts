@@ -8,6 +8,7 @@ import euphorusImg from "@/public/euphorus-two.png";
 import euphorusBackendImg from "@/public/euphorus-backend.png";
 import techprowlImg from "@/public/techprowl-two.png";
 import taskManagerImg from "@/public/task-manager.png";
+import authImg from "@/public/Authimg.png";
 //import familyTreeImg from "@/public/bfsproject.jpg";
 import binaryGameImg from "@/public//binary-game.png";
 
@@ -189,6 +190,16 @@ export const projectsData = [
     icons: ["fa-solid:terminal", "logos:apple", "logos:python" ],
     imageUrl: taskManagerImg,
     githubLink: "https://github.com/ks3669/Scripts",
+  },
+    {
+    title: "Yet Another Auth app using Next.js. Personalised content delivery",
+    description:
+      "I made this app to flex my skills with nextJS authentication methods and functions. In this website I made sure to deliver premium content to premium users and deliver general content to all users except premium while authenticating their credentials",
+    tags: ["C#"],
+    icons: ["logos:nextjs-icon", "logos:typescript-icon" ],
+    imageUrl: authImg,
+    githubLink: "https://github.com/ks3669/Next.js-Auth-App",
+    demoLink: "https://next-js-auth-app-karthik-srivathsan-sekars-projects.vercel.app/",
   },
 //  {
 //    title: "Bash scipt to remove a User's admin access",
