@@ -9,6 +9,7 @@ import euphorusBackendImg from "@/public/euphorus-backend.png";
 import techprowlImg from "@/public/techprowl-two.png";
 import taskManagerImg from "@/public/task-manager.png";
 import authImg from "@/public/Authimg.png";
+import BudgetApp from "@/public/BudgetApp.png";
 //import familyTreeImg from "@/public/bfsproject.jpg";
 import binaryGameImg from "@/public//binary-game.png";
 
@@ -98,6 +99,38 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+    {
+    title: "BudgetApp - Save and Plan better....",
+    description:
+      "I made this website to help myself to keep my savings and expenses in order. Along the way I thought to make it available to other people. So I changed the app to MERN stack and then added visualization for people to understand better.",
+    tags: ["JavaScript", "HTML", "CSS", "Data Structures"],
+    icons: [
+      "logos:javascript",
+      "logos:vitejs",
+      "logos:mongodb-icon",
+      "logos:html-5",
+      "logos:react",
+      "skill-icons:expressjs",
+    ],
+    imageUrl: BudgetApp,
+    githubLink: "https://github.com/ks3669/Budget-App",
+    demoLink: "https://budget-app-karthik-srivathsan-sekars-projects.vercel.app/",
+  },
+    {
+    title: "Leetfinder - A website to find similar Leetcode problems",
+    description:
+      "I made this website to help myself while searching for leetcode problems related to a topic. I also did this project to flex my data structure skills and ML skills. Click to view more technical details about the project",
+    tags: ["JavaScript", "HTML", "CSS", "Data Structures"],
+    icons: [
+      "logos:javascript",
+      "logos:tailwindcss-icon",
+      "akar-icons:network",
+      "logos:html-5",
+    ],
+    imageUrl: leetfinder,
+    githubLink: "https://github.com/ks3669/karthik_leetfinder",
+    demoLink: "https://karthik-leetfinder.vercel.app/",
+  },
   {
     title: "Portfolio Website",
     description:
@@ -113,21 +146,6 @@ export const projectsData = [
     imageUrl: cryptoCrowdImg,
     githubLink: "https://github.com/ks3669/Portfolio_website",
     demoLink: "https://www.karthiksekar.fyi/",
-  },
-  {
-    title: "Leetfinder - A website to find similar Leetcode problems",
-    description:
-      "I made this website to help myself while searching for leetcode problems related to a topic. I also did this project to flex my data structure skills and ML skills. Click to view more technical details about the project",
-    tags: ["JavaScript", "HTML", "CSS", "Data Structures"],
-    icons: [
-      "logos:javascript",
-      "logos:tailwindcss-icon",
-      "akar-icons:network",
-      "logos:html-5",
-    ],
-    imageUrl: leetfinder,
-    githubLink: "https://github.com/ks3669/karthik_leetfinder",
-    demoLink: "https://karthik-leetfinder.vercel.app/",
   },
     {
     title: "LLM response Filtering",
